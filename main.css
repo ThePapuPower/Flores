@@ -15,7 +15,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
-  background-color: var(--dark-color);
+  background-color: Var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
 }
@@ -30,7 +30,7 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
 }
-@media only screen and (max-width: 600px) {
+@Media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
@@ -51,10 +51,10 @@ body {
   text-align: center;
 }
 @keyframes fadeIn {
-  from {
+  From {
     opacity: 0;
   }
-  to {
+  To {
     opacity: 1;
   }
 }
@@ -71,7 +71,7 @@ body {
   background-image: radial-gradient(
       ellipse at top,
       transparent 0%,
-      var(--dark-color)
+      Var(--dark-color)
     ),
     radial-gradient(
       ellipse at bottom,
@@ -362,7 +362,7 @@ body {
       transparent 1px,
       transparent 12px
     ),
-    repeating-linear-gradient(
+    Repeating-linear-gradient(
       22.5deg,
       rgba(0, 0, 0, 0.03) 0px,
       rgba(0, 0, 0, 0.03) 1px,
